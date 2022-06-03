@@ -1,0 +1,86 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(225, 100%, 94%);
+    background-image: url("/order-summary-component-main/images/pattern-background-desktop.svg");
+  }
+
+  .continer {
+    width: 397px;
+    margin: 10%;
+    border-radius: 21px;
+    background-color: white;
+  }
+
+  p {
+    width: fit-content;
+    padding: 3px 24px;
+    color: #a3a1a1;
+  }
+
+  button {
+    width: 79%;
+    height: 42px;
+    border-radius: 9px;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    background-color:hwb(245deg 13% 7%);
+    border: none;
+  }
+
+  .but {
+    background-color: white;
+    border: none;
+    color: #938f8f;
+    margin-bottom: 25px;
+  }
+
+  .flex {
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(225deg 37% 94% / 62%);
+
+  }
+
+  img {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  .border {
+    margin: 20px 46px;
+    border-radius: 9px;
+    height: 83px;
+  }
+
+  .anual {
+    padding-left: 19px;
+    font-size: 17px;
+    font-weight: 700;
+  }
+  #price{
+    margin: 0px;
+    color: #a3a1a1;
+  }
+  a{
+    font-weight: 800;
+  }
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  .center {
+    align-items: center;
+    text-align: center;
+  }
